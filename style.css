@@ -1,0 +1,305 @@
+.myNav {
+    Background: white;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 60px;
+    line-height: 50px;
+    justify-content: center;
+}
+
+.myNav > img {
+    width:  268px;
+}
+
+
+.myNav li {
+    display: inline;
+    padding: 0;
+}
+
+.myNav li a {
+    text-decoration: none;
+    padding:5px 10px;
+    color: black;
+}
+
+.bigContainer{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    /* justify-content: center; */
+    Height: 350px;
+    /* align-items: 10fr 10fr 10fr;     */
+    margin: auto;
+    /* padding: 30px; */
+    font-size: 30px;
+    /* background-color: aqua; */
+    /* margin-left: auto;
+    margin-bottom: auto; */
+
+}
+
+.patients, .bigDoctor, .bigClinic{
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+ 
+
+.patients {
+    background-color:aqua;
+    width: 280px;
+    color: aliceblue;
+}
+
+.bigDoctor{
+    background-color: rgb(68, 132, 221);
+    width: 280px;
+    color: aliceblue;
+}
+
+.bigClinic{
+    background-color: rgb(27, 39, 52);
+    width: 280px;
+    color: aliceblue;
+}
+
+
+.myGallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+.ourImage{
+    margin: 5px;
+    /* width: 250px; */
+    overflow: hidden;
+}
+
+.myBtn {
+    color: white;
+    background-color:cornflowerblue;
+    border-color: cornflowerblue;
+
+}
+
+.pointCenter {
+    justify-content: space-around;
+}
+
+.selectBtn {
+    text-decoration: underline;
+    border-color: aqua;
+    background-color:aqua;
+    color:aliceblue;
+    font-size:20px;
+}
+
+.selectBtnone {
+    text-decoration: underline;
+    border-color: rgb(68, 132, 221);
+    background-color: rgb(68, 132, 221);
+    color:aliceblue;
+    font-size:20px;
+}
+
+.selectBtntwo {
+    text-decoration: underline;
+    border-color: rgb(27, 39, 52);
+    background-color:rgb(27, 39, 52);
+    color:aliceblue;
+    font-size:20px;
+}
+
+.firstLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.grid-item {
+    margin: 1em 30px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.grid-Second {
+    display:grid;
+    grid-template-columns: auto auto;
+    /* justify-content:flex-end; */
+    margin: 20px;
+    background-color:aqua;
+    height:500px;
+    width: 1250px;
+    
+}
+/* 
+.first-Box {
+    width: 100px;
+    height: 80px;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 10Px;
+}
+
+
+.second-Box {
+    width: 250px;
+    height: 230px;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 10Px;
+
+}
+
+.third-Box {
+    width: 250px;
+    height: 230px;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 10Px;
+
+    
+}
+
+
+.fourth-Box {
+    width: 250px;
+    height: 230px;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 10Px; */
+
+}
+
+/* .middle.Size {
+    display: 
+} */
+
+.square-Box {
+width:250px;
+height: 230px;
+margin-top: -11%;
+background-color: aqua;
+}
+
+.first-Box {
+    font-size: 32px;
+    padding-left: 150px;
+    /* padding-top:80px; */
+    font-weight: bold;
+    line-height: -40%;
+
+}
+
+.second-Box{
+    color: aquamarine;
+    padding: 150px;
+    padding-top: 30px;
+    font-size: 13.5px;
+
+
+ 
+}
+
+.block1 {
+    background-color: yellow;
+    width: 150px;
+    height: 200px;
+    border-radius: 7px;
+
+}
+
+.third-Box {
+    padding-left: 68.5%;
+    margin-top:-180px
+
+
+}
+
+.block1 {
+    background-color: rgb(251, 46, 46);
+    width: 250px;
+    height: 230px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+
+}
+
+.block2 {
+    background-color: blue;
+    width: 250px;
+    height: 230px;
+    border-radius: 5px;
+
+
+}
+
+
+
+
+
+.blck2 {
+    background-color: red;
+    width: 250px;
+    height: 230px;
+    border-radius: 7px;
+
+}
+
+
+
+.fourth-Box{
+    padding-left: 49.5%;
+    margin-top: 250px;
+}
+
+
+
+
+
+.bigDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blackPanther {
+    display: inline-block;
+    padding:5px , o;
+    align-items: 10fr,10fr,10fr,10fr;
+}
+
+
+.secondSpace {
+  display: block;
+    font-size: 15px;
+    
+}
+.newColor {
+    Color: aqua;
+}
